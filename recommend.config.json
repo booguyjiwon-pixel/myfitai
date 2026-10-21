@@ -1,0 +1,31 @@
+{
+  "_note": "사이즈표·가중치는 자리표시값입니다. 공장 견적 후 확정하세요.",
+  "sizeOrder": ["S", "M", "L"],
+  "sizeTable": {
+    "waist": [{"size": "S", "max": 72}, {"size": "M", "max": 84}, {"size": "L", "max": 999}],
+    "hip": [{"size": "S", "max": 92}, {"size": "M", "max": 102}, {"size": "L", "max": 999}]
+  },
+  "boundaryCm": 2,
+  "products": {
+    "sku1": {"name": "하이웨스트 세미보정 팬티", "tag": "데일리 · 약~중 압박", "desc": "매일 편하게 입는 하이웨스트 팬티예요. 약~중 압박으로 부담을 낮췄어요."},
+    "sku2": {"name": "산후 벨리밴드형 보정밴드", "tag": "외출·집중 케어 · 압박 조절", "desc": "외출하거나 지지력이 필요할 때 감아 쓰는 밴드예요. 압박을 직접 조절할 수 있어요."}
+  },
+  "weights": {
+    "sku1Base": 2,
+    "sku2BellyWaistMid": 2,
+    "sku2WantsAdjust": 1,
+    "closeGap": 1
+  },
+  "pressure": {
+    "labels": {"low": "약", "mid": "중"},
+    "map": {"low": "low", "mid": "mid", "high": "mid"},
+    "csectionStepDown": {"mid": "low", "low": "low"}
+  },
+  "messages": {
+    "disclaimer": "입력하신 정보로 점수를 계산한 추천이며 의료적 조언이 아닙니다.",
+    "boundary": "두 사이즈 사이예요. 편안함을 원하시면 큰 쪽, 지지력을 원하시면 작은 쪽을 추천해요",
+    "highCapped": "현재 준비 중인 제품의 가장 강한 단계는 '중'이에요. '중'으로 안내해 드릴게요.",
+    "csection": "분만 유형에 따라 압박 강도를 한 단계 낮춰 안내했어요. 회복 상태에 대해서는 담당 의료진과 상의해 주세요.",
+    "beta": "베타 · 임시 추천"
+  }
+}
